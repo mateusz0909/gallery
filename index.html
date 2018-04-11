@@ -40,11 +40,17 @@
   </table>
   <br>
   <div class="center">
-    <a class="button" href="https://midnightpop.neocities.org/">Visit the first domain</a>
+    <a class='button' href='https://midnightpop.neocities.org/' onclick='gtag('event', 'aaa', {
+  'event_category' : 'bbb',
+  'event_label' : 'ccc'
+});'>Visit the first domain</a>
   </div>
   <br>
   <div class="center">
-    <button class='button' onclick=ga('send', 'event', 'Category', 'Action', 'Label', Value);
+    <button class='button' onclick='gtag('event', 'aaa', {
+  'event_category' : 'bbb',
+  'event_label' : 'ccc'
+});'
 >Event test</button>
   </div>
 
