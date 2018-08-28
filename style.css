@@ -67,7 +67,6 @@ tr:nth-of-type(2) td{
 
 .product{
 	border: 1px solid #dddddd;
-	height: 321px;
 }
 
 .product>img{
@@ -133,7 +132,7 @@ tr:nth-of-type(2) td{
 }
 
 /*********************************************
-				ITEM 
+				ITEM
 *********************************************/
 
 .service1-items {
