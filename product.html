@@ -125,6 +125,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <section class="container">
 
             </section>
+<!-- BEGIN GCR Badge Code -->
+<script src="https://apis.google.com/js/platform.js?onload=renderBadge"
+  async defer>
+</script>
+
+<script>
+  window.renderBadge = function() {
+    var ratingBadgeContainer = document.createElement("div");
+    document.body.appendChild(ratingBadgeContainer);
+    window.gapi.load('ratingbadge', function() {
+      window.gapi.ratingbadge.render(
+        ratingBadgeContainer, {
+          "merchant_id": 42,
+          "position": "BOTTOM_LEFT"
+        });
+    });
+  }
+</script>
+<!-- END GCR Badge Code -->
+
+<!-- BEGIN GCR Language Code -->
+<script>
+  window.___gcfg = {
+    lang: 'en_US'
+  };
+</script>
+<!-- END GCR Language Code -->
 
           </div>
           <div class="tab-pane fade" id="service-three">
