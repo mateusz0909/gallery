@@ -1,117 +1,150 @@
-<!DOCTYPE html class="no-js" lang="en">
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Photo Repository</title>
 
-<head>
-  <meta charset="utf-8">
-  <title>The second domain</title>
-  <link rel="stylesheet" href="style.css">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-91492606-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 
-  gtag('config', 'UA-91492606-2');
-   gtag('config', 'AW-1016765798');
-</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
   <script>
-            gtag('event', 'page_view', {
-                'send_to': 'AW-1016765798',
-                'ecomm_prodid': 1743,
-                'ecomm_pagetype': 'product'
-            });
-        </script>
-  <script>
-  gtag('event', 'purchase', {
-  "transaction_id": "24.031608523954162",
-  "affiliation": "Google online store",
-  "value": 23.07,
-  "currency": "USD",
-  "tax": 1.24,
-  "shipping": 0,
-  "items": [
-    {
-      "id": "P12345",
-      "name": "Android Warhol T-Shirt",
-      "list_name": "Search Results",
-      "brand": "Google",
-      "category": "Apparel/T-Shirts",
-      "variant": "Black",
-      "list_position": 1,
-      "quantity": 2,
-      "price": '2.0'
-    },
-    {
-      "id": "P67890",
-      "name": "Flame challenge TShirt",
-      "list_name": "Search Results",
-      "brand": "MyBrand",
-      "category": "Apparel/T-Shirts",
-      "variant": "Red",
-      "list_position": 2,
-      "quantity": 1,
-      "price": '3.0'
-    }
-  ]
-});
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'UA-91492606-2');
+     gtag('config', 'AW-1016765798');
   </script>
+    <script>
+              gtag('event', 'page_view', {
+                  'send_to': 'AW-1016765798',
+                  'ecomm_prodid': 1743,
+                  'ecomm_pagetype': 'product'
+              });
+          </script>
+          <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+          <script src="confirm.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
 
-  
-</head>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse fixed-top navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="https://mateusz0909.github.io"> Home</a></li>
+            <li class=""><a href="https://midnightpop.neocities.org/">Second page</a></li>
+            <li class=""><a href="https://mateusz0909.github.io/product.html#service-two">Product page</a></li>
+            <li><a href="#"></a></li>
 
-<body>
-  <h1>This is the 2dn test site</h1>
-  <table>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </table>
-  <br>
-  <div class="center">
-    <a class='button' href="https://midnightpop.neocities.org/" onclick="gtag('event', '123', {
-  'event_category' : '345',
-  'event_label' : 'ccc'
-});">Visit the first domain</a>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"></a></li>
+
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+
+    <div class="jumbotron text-center">
+      <h1><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> The Photo Repository</h1>
+      <h3>A bunch of snapshots I did't take</h3>
+    </div>
+    <div class="row grid">
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://cdn.pixabay.com/photo/2015/09/05/20/07/log-924958__340.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://cdn.pixabay.com/photo/2018/08/19/10/16/nature-3616194__340.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://cdn.pixabay.com/photo/2018/08/17/20/01/tap-3613709__340.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/photo-1503793015262-8109f8fd159d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6e708fee13866bd3ecd194cfb37cd219&auto=format&fit=crop&w=500&q=60" alt="img">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/photo-1509420316987-d27b02f81864?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=076f0cdd8459c4da67a4fb4309e25ca8&auto=format&fit=crop&w=500&q=60" alt="img">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dda4800cce17d4fd81e1f7951aa51bd8&auto=format&fit=crop&w=500&q=60" alt="img">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/photo-1514418197935-e0cac2bb695a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=73703fc107d2c3f2835ec8af1f981c25&auto=format&fit=crop&w=500&q=60" alt="img">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/photo-1520264914976-a1ddb24d2114?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f3553a06e5e8d1129270bb3de873f651&auto=format&fit=crop&w=500&q=60" alt="img">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/photo-1529806414965-afc2044ad821?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e46cff6854fc28b27ffb6b6bc4934cb7&auto=format&fit=crop&w=500&q=60" alt="img">
+        </div>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+
+      </div>
+    </div>
+
+      <div class="panel panel-default">
+
+        <div class="panel-heading">Newsletter sign up</div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-md-3">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid" required>
+            </div>
+            <div class="col-md-3">
+              <button type="submit" class='btn btn-default' name="button" onClick="gtag('event', 'aaa', {'event_category' : 'bbb','event_label' : 'ccc'}); myFunction();">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
   </div>
-  <br>
-  <div class="center">
-    <button class='button' onclick="gtag('event', 'aaa', {
-  'event_category' : 'bbb',
-  'event_label' : 'ccc'
-});">Event test</button>
-  </div>
-   <br>
-  <div class="center">
-    <a class='button' target="_self" href="https://mateusz0909.github.io/product.html#service-two">Product page</a>
-  </div>
-  <div class="center">
-    
-   <p> Lorem ipsum dolor amet succulents drinking vinegar master cleanse iceland ethical tattooed swag. Banh mi four dollar toast pug, brunch edison bulb master cleanse lo-fi artisan disrupt sartorial. Sustainable deep v aesthetic listicle, drinking vinegar mustache craft beer butcher next level kogi. Pour-over knausgaard sriracha biodiesel meggings.
 
-Ugh blog fam, tofu selfies knausgaard pour-over mumblecore succulents adaptogen. Locavore mustache helvetica YOLO church-key tacos try-hard pop-up subway tile paleo skateboard ugh kickstarter microdosing. Next level slow-carb messenger bag selvage literally fingerstache organic. Beard aesthetic microdosing selfies synth, leggings fam letterpress snackwave bespoke tousled health goth skateboard. </p>
-
-<p>Cliche farm-to-table occupy 3 wolf moon, la croix williamsburg shaman lo-fi try-hard irony jean shorts vaporware shoreditch chia. Migas master cleanse direct trade, cloud bread small batch austin twee ennui post-ironic. Fanny pack tofu poke bitters authentic. Neutra blog snackwave, photo booth art party hell of next level helvetica. Live-edge synth semiotics, DIY deep v lo-fi woke quinoa portland stumptown irony YOLO tofu tumeric. Tattooed swag echo park mlkshk woke, art party kickstarter.
-
-Affogato franzen pour-over before they sold out roof party brunch tilde fam lomo selfies cronut dreamcatcher humblebrag. Poke cardigan salvia, shabby chic YOLO poutine small batch next level yr. Plaid twee tacos affogato, heirloom bushwick crucifix green juice vaporware shabby chic enamel pin chambray. Photo booth snackwave vexillologist fanny pack. Snackwave sustainable mumblecore, tote bag wayfarers typewriter vinyl.
-
-Etsy cred marfa, fixie flannel tumeric synth enamel pin keytar. Fanny pack wolf green juice activated charcoal, vape food truck pabst chillwave offal yr. Marfa etsy actually hashtag. Iceland fashion axe celiac live-edge, thundercats kombucha poutine mustache affogato tofu portland wolf. Before they sold out mustache hella, typewriter austin vexillologist adaptogen forage hell of 3 wolf moon cornhole swag chartreuse salvia semiotics.</p>
-
-  </div>
-</body>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
 </html>
